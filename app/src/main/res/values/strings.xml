@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">DataManager01</string>
+    <string name="Register_Button">登録</string>
+    <string name="Edit_button">編集</string>
+    <string name="Delet_Button">削除</string>
+    <string name="Delete_Button">削除</string>
+    <string name="regist_screen">登録画面</string>
+    <string name="product_name">商品名</string>
+    <string name="unit_price">単　価</string>
+    <string name="regist_button">登録</string>
+    <string name="cancel_button">中止</string>
+    <string name="edit_screen">編集画面</string>
+    <string name="delete_screen">削除画面</string>
 </resources>
