@@ -29,7 +29,7 @@
             android:text="@string/product_name" />
 
         <TextView
-            android:id="@+id/deleteNameEdit"
+            android:id="@+id/deleteNameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +50,7 @@
             android:text="@string/unit_price" />
 
         <TextView
-            android:id="@+id/deletePriceEdit"
+            android:id="@+id/deletePriceText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
