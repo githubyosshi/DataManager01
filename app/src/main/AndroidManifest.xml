@@ -9,12 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<!--        メインアクティビティの呼び出し-->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+<!--        アクティビティを起動-->
+        <activity
+            android:name=".RegistActivity"
+            android:label="RegistActivity">
+        </activity>
+        <activity
+            android:name=".UpdateActivity"
+            android:label="UpdateActivity">
+        </activity>
+        <activity
+            android:name=".DeleteActivity"
+            android:label="DeleteActivity">
         </activity>
     </application>
 

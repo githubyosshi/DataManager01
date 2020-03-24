@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -14,10 +15,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private static final int REGIST_REQUEST_CODE = 1;   //リクエストコード登録用
-    private static final int UPDATE_REQUEST_CODE = 2;   //リクエストコード編集用
-    private static final int DELETE_REQUEST_CODE = 3;   //リクエストコード削除用
+public class MainActivity extends AppCompatActivity implements OnClickListener {
+    private static final int REGIST_REQUEST_CODE = 1; //リクエストコード（登録用）
+    private static final int UPDATE_REQUEST_CODE = 2; //リクエストコード（編集用）
+    private static final int DELETE_REQUEST_CODE = 3; //リクエストコード（削除用）
 
     private DBHelper helper;                //DBHelperクラス
     private ListView listView;              //ListViewクラス
